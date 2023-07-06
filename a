@@ -1,1 +1,37 @@
-aa
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n1;
+    cout<<"digite um numero inteiro\n";
+    cin>>n1;
+
+
+
+
+    switch(n1){
+
+    case 1:
+    cout<<"voce digitou 1";
+    break;
+
+    case 5:
+    cout<<"voce digitou 5";
+    break;
+
+    case 10:
+    cout<<"voce digitou 10";
+    break;
+
+    default:
+    cout<<"dongay kong";
+
+
+
+
+
+    }
+    return 0;
+}
